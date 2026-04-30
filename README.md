@@ -4,9 +4,9 @@
 
 ## Project Description
 
-CLBService Exam Log is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for anchoring SHA-256 hashes of RespondIT BlockedEvents entries directly on the Stellar ledger. The contract ensures that exam security evidence is stored transparently and is independently verifiable by any party — including students contesting an academic integrity ruling — without storing any student PII on-chain.
+CLBService Exam Log is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for anchoring SHA-256 hashes of CLBService BlockedEvents entries directly on the Stellar ledger. The contract ensures that exam security evidence is stored transparently and is independently verifiable by any party — including students contesting an academic integrity ruling — without storing any student PII on-chain.
 
-The system is the third parallel write in the RespondIT CLBService BlockedEvents pipeline: after writing to a local hidden log file and Firebase, CLBService calls `anchor_event()` to permanently anchor a cryptographic hash on-chain. Each anchored entry is uniquely indexed and linked to its Firebase counterpart via a SHA-256 hash, creating a tamper-proof bridge between the human-readable dashboard record and its immutable on-chain proof.
+The system is the third parallel write in the CLBService BlockedEvents pipeline: after writing to a local hidden log file and Firebase, CLBService calls `anchor_event()` to permanently anchor a cryptographic hash on-chain. Each anchored entry is uniquely indexed and linked to its Firebase counterpart via a SHA-256 hash, creating a tamper-proof bridge between the human-readable dashboard record and its immutable on-chain proof.
 
 ## Project Vision
 
