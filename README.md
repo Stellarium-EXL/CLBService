@@ -55,7 +55,7 @@ We envision a future where academic integrity evidence is as trustworthy as the 
 - Leverages the high speed and low cost of Stellar for per-event anchoring
 - Built using the modern Soroban Smart Contract SDK
 - Persistent and instance storage optimised for audit log access patterns
-- Interoperable with RespondIT's existing Firebase and Horizon REST pipeline
+- Interoperable with CLBService existing Firebase and Horizon REST pipeline
 
 ## Contract Details
 
@@ -74,7 +74,7 @@ TBA
 ### Short-Term Enhancements
 
 1. **Session-Scoped Export**: Bundle all anchored entries for a given exam session into a signed PDF for disciplinary board submission
-2. **Dashboard Integration**: Surface `verify_event()` results directly in the RespondIT real-time monitoring dashboard
+2. **Dashboard Integration**: Surface `verify_event()` results directly in the CLBService real-time monitoring dashboard
 3. **Retry Queue**: CLBService offline queue that batches missed anchors and submits them once connectivity is restored
 4. **Event-Type Filtering**: Extend AnchorEntry to include an event_type field for filtering by violation category (Alt+F4, DevTools, Sticky Keys, etc.)
 
@@ -91,7 +91,7 @@ TBA
 ### Long-Term Vision
 
 9. **Cross-Institution Anchoring**: Extend the anchoring model to a shared Stellar contract usable by multiple universities
-10. **Decentralized Dashboard Hosting**: Host the RespondIT monitoring frontend on IPFS for full institutional independence
+10. **Decentralized Dashboard Hosting**: Host the CLBService monitoring frontend on IPFS for full institutional independence
 11. **AI-Powered Anomaly Flagging**: Optional integration with an AI layer to surface unusual patterns across anchored session entries
 12. **Zero-Knowledge Verification**: Implement ZK proofs so students can verify their own records without exposing seat or session metadata to third parties
 13. **DAO Governance**: Community-driven protocol improvements allowing participating institutions to vote on anchoring policy changes
