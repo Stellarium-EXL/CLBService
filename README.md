@@ -86,7 +86,7 @@ TBA
    - Cross-lab session correlation
 6. **Horizon Webhook Bridge**: Off-chain bridge that listens for new anchor transactions and triggers real-time dashboard alerts
 7. **Proctor Report Generation**: Automated structured report triggered by `get_entry()` range queries for post-exam review
-8. **Inter-Contract Integration**: Allow the RespondIT grade management contract to reference AuditChain entries as evidence during automated integrity checks
+8. **Inter-Contract Integration**: Allow the CLBService grade management contract to reference CLBService entries as evidence during automated integrity checks
 
 ### Long-Term Vision
 
