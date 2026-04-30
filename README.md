@@ -1,10 +1,10 @@
-# AuditChain Exam Log
+# CLBService Exam Log
 
-**AuditChain Exam Log** - Blockchain-Based Tamper-Proof Academic Integrity Evidence System
+**CLBService Exam Log** - Blockchain-Based Tamper-Proof Academic Integrity Evidence System
 
 ## Project Description
 
-AuditChain Exam Log is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for anchoring SHA-256 hashes of RespondIT BlockedEvents entries directly on the Stellar ledger. The contract ensures that exam security evidence is stored transparently and is independently verifiable by any party — including students contesting an academic integrity ruling — without storing any student PII on-chain.
+CLBService Exam Log is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for anchoring SHA-256 hashes of RespondIT BlockedEvents entries directly on the Stellar ledger. The contract ensures that exam security evidence is stored transparently and is independently verifiable by any party — including students contesting an academic integrity ruling — without storing any student PII on-chain.
 
 The system is the third parallel write in the RespondIT CLBService BlockedEvents pipeline: after writing to a local hidden log file and Firebase, CLBService calls `anchor_event()` to permanently anchor a cryptographic hash on-chain. Each anchored entry is uniquely indexed and linked to its Firebase counterpart via a SHA-256 hash, creating a tamper-proof bridge between the human-readable dashboard record and its immutable on-chain proof.
 
@@ -225,7 +225,7 @@ soroban contract invoke \
 
 ---
 
-**AuditChain Exam Log** - Securing Exam Integrity Evidence on the Blockchain
+**CLBService Exam Log** - Securing Exam Integrity Evidence on the Blockchain
 
 ---
 
@@ -233,10 +233,4 @@ soroban contract invoke \
 
 MIT License
 
-Copyright (c) 2025 RespondIT — San Beda University, Department of Computing Studies
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+abc
